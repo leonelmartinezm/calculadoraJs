@@ -79,7 +79,7 @@ const darkMode= ()=>{
 
     document.addEventListener("DOMContentLoaded",e=>{
               
-    console.log(localStorage.getItem("themeMode"))
+  
 
     if(localStorage.getItem("themeMode") === null){
         localStorage.setItem("themeMode", "dark")
